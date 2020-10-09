@@ -10,8 +10,8 @@ function ProductItem() {
   return (
     <div>
       <div className="link">
-        <h3 style={{ fontSize: 30 }}>{shoe.name}</h3>
-        <img src={shoe.img} height={450} width={450} alt="shoe" />
+        <h3 style={{ fontSize: 20 }}>{shoe.name}</h3>
+        <img src={shoe.img} height={350} width={350} alt="shoe" />
       </div>
     </div>
   );
